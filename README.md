@@ -13,3 +13,5 @@ Next.js descarga los archivos de fuentes en el momento de la compilación y los 
 Las imágenes sin dimensiones y fuentes web son causas comunes de cambio de diseño debido a que el navegador tiene que descargar recursos adicionales.
 
 El archivo de diseño es la mejor manera de crear un diseño compartido que puedan usar todas las páginas de la aplicación
+
+Next.js precarga automáticamente el código de la ruta vinculada en segundo plano. En el momento en que el usuario haga clic en el enlace, el código de la página de destino ya estará cargado en segundo plano, ¡y esto es lo que hace que la transición de página sea casi instantánea!
