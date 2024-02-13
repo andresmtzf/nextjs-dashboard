@@ -11,3 +11,5 @@ Usar CSS modules, para proveer clases locales reducen el riesgo de conflictos co
 Next.js descarga los archivos de fuentes en el momento de la compilación y los aloja con sus otros recursos estáticos. Esto significa que cuando un usuario visita la aplicación, no hay solicitudes de red adicionales para las fuentes, lo que afectaría al rendimiento.
 
 Las imágenes sin dimensiones y fuentes web son causas comunes de cambio de diseño debido a que el navegador tiene que descargar recursos adicionales.
+
+El archivo de diseño es la mejor manera de crear un diseño compartido que puedan usar todas las páginas de la aplicación
